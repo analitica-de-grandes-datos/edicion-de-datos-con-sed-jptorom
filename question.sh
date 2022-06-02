@@ -54,4 +54,4 @@ cat data.csv \
 |       sed 's/,N/,\\N/g' \
 |       sed 's/.*/\U&/' \
 |       sed 's/\//-/g' \
-|       sed 's/\/ /\\N/g'
+|       sed 's/, /\\N,/g'
